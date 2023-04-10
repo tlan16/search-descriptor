@@ -6,5 +6,5 @@
   <Image height="16" width="16" type="image/vnd.microsoft.icon">https://tlan16.github.io/search-descriptor/search-engines/whoogle/favicon.ico</Image>
   <Url type="text/html" template="https://search.franklan.com.au/search?q={searchTerms}"/>
   <Url type="application/x-suggestions+json" method="GET"
-       template='https://search.franklan.com.au/autocomplete?q={searchTerms}'/>
+       template='https://search.franklan.com.au/autocomplete?q=%s'/>
 </OpenSearchDescription>
